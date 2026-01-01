@@ -39,10 +39,3 @@ javac src/*.java
 java -cp src Main
 ```
 
-## Sınıf Yapısı
-*   **`Arac.java`**: Ana soyut sınıf.
-*   **`Otomobil.java`**: Binek araç sınıfı (Kapı sayısı özelliği var).
-*   **`Kamyon.java`**: Ağır vasıta sınıfı (Yük kapasitesi özelliği var).
-*   **`IBakimYapilabilir.java`**: Bakım yeteneği kazandıran arayüz.
-*   **`KiralamaSirketi.java`**: Araçları yöneten ve polimorfizm örneği sunan sınıf.
-*   **`Main.java`**: Test kodlarının bulunduğu ana sınıf.
